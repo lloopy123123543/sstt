@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: black;
+	background-repeat: no-repeat;
+	margin-bottom: 94px;
+	max-height: 1600px;
+}
+.Header{
+	height: 300px;
+	width: 100%;
+	background-color: white;
+}
+.List__block{
+	margin-left: 500px;
+	padding-left: 50px;
+	width: 40px;
+	height: 40px;
+	background-color: #4F769F;
+	display: inline-block;
+}
+.List__image{
+
+}
+.Content{
+	width: 100%;
+	height: 250px;
+	background-image: url('./images/background_image.jpg');
+
+}
+.Overlay{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+.Shop{
+	background-image: url('./images/for_shop.jpg');
+	background-color: yellow;
+	height: 1500px;
+	background-repeat: no-repeat;
+}
+.Towar{
+
+}
+.Content__title{
+	padding-top: 40px;
+	margin-left: 850px;
+	font-size: 90px;
+	color: white;
+	font-family: 'Staatliches', cursive;
+
+}
+.Blocks{
+}
+.Content__block1, .Content__block2, .Content__block3{
+	margin-top: 40px;
+	display: inline-block;
+	height: 300px;
+	width: 380px;
+	background-color: blue;
+	padding: 20px;
+	margin-left: 150px;
+
+}
+.Content__block1 {
+
+}
+.Content__block2{
+
+}
+.Content__block3{
+
+}
+.Content__block4, .Content__block5, .Content__block6{
+	margin-top: 80px;
+	display: inline-block;
+	height: 380px;
+	width: 300px;
+	background-color: blue;
+	padding: 20px;
+	margin-left: 150px;
+
+}
+.Content__block4{
+
+}
+.Content__block5{
+
+}
+.Content__block6{
+
+}
+.Content__block7, .Content__block8, .Content__block9{
+	margin-top: 80px;
+	display: inline-block;
+	height: 300px;
+	width: 380px;
+	background-color: blue;
+	padding: 20px;
+	margin-left: 150px;
+
+}
+.Content__block7{
+
+}
+.Content__block8{
+
+}
+.Content__block9{
+
+}
+
+.Content__text{
+	Минимализм это наше всё
+
+}
+.Content__button{
+
+}
+.Bot{
+	height: 400px;
+	width: 100%;
+	background-color: black;
+
+}
