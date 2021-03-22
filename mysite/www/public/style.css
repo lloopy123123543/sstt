@@ -3,130 +3,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
 html, body {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	background-color: black;
-	background-repeat: no-repeat;
-	margin-bottom: 94px;
-	max-height: 1600px;
-}
-.Header{
-	height: 300px;
-	width: 100%;
 	background-color: white;
-}
-.List__block{
-	margin-left: 500px;
-	padding-left: 50px;
-	width: 40px;
-	height: 40px;
-	background-color: #4F769F;
-	display: inline-block;
-}
-.List__image{
-
-}
-.Content{
-	width: 100%;
-	height: 250px;
-	background-image: url('./images/background_image.jpg');
-
-}
-.Overlay{
 	width: 100%;
 	height: 100%;
 	display: inline-block;
 }
-.Shop{
-	background-image: url('./images/for_shop.jpg');
-	background-color: yellow;
-	height: 1500px;
-	background-repeat: no-repeat;
-}
-.Towar{
+.Back{
 
-}
-.Content__title{
-	padding-top: 40px;
-	margin-left: 850px;
-	font-size: 90px;
-	color: white;
-	font-family: 'Staatliches', cursive;
-
-}
-.Blocks{
-}
-.Content__block1, .Content__block2, .Content__block3{
-	margin-top: 40px;
-	display: inline-block;
-	height: 300px;
-	width: 380px;
-	background-color: blue;
-	padding: 20px;
-	margin-left: 150px;
-
-}
-.Content__block1 {
-
-}
-.Content__block2{
-
-}
-.Content__block3{
-
-}
-.Content__block4, .Content__block5, .Content__block6{
-	margin-top: 80px;
-	display: inline-block;
-	height: 380px;
-	width: 300px;
-	background-color: blue;
-	padding: 20px;
-	margin-left: 150px;
-
-}
-.Content__block4{
-
-}
-.Content__block5{
-
-}
-.Content__block6{
-
-}
-.Content__block7, .Content__block8, .Content__block9{
-	margin-top: 80px;
-	display: inline-block;
-	height: 300px;
-	width: 380px;
-	background-color: blue;
-	padding: 20px;
-	margin-left: 150px;
-
-}
-.Content__block7{
-
-}
-.Content__block8{
-
-}
-.Content__block9{
-
-}
-
-.Content__text{
-	Минимализм это наше всё
-
-}
-.Content__button{
-
-}
-.Bot{
-	height: 400px;
 	width: 100%;
+	height: 120%;
+	background-color: #F4F4F4;
+	margin-left: -8px;
+	margin-top: -1px;
+	background-image: url('./images/Untitled-2.png') ;
+}
+.header{
+	z-index: 1;
+	position: fixed;
+	margin-left: -8px;
+	margin-top: -8px;
 	background-color: black;
+	width: 100%;
+	height: 100px;
 
+}
+.text{
+	color: black;
+	padding-top: 25%;
+	padding-left: 40%;
+	height: 50%;
+	width: 50%;
+	font-family: 'Chango', cursive;
+	font-size: 80px;
+}
+.content{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	opacity: .97;
+	margin-left: 30%;
+	margin-top: 5%;
+	width: 40%;
+	height: 70%;
+	background-color: white;
+	background-image: url('./images/roscosmos-logo-main-eng.png') ;
+	background-repeat: no-repeat;
+
+}
+
+.bot{
+	margin-left: 15%;
+	margin-top: -5%;
+	width: 70%;
+	height: 60%;
+	background-color: red;
+	opacity: .90
+
+}
+
+.more_bot{
+	margin-top: -30px;
+	margin-left: -8px;
+	width: 100%;
+	height: 40%;
+	background-color: #36393F;
+}
+.button{
+	padding-top: 38%;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+.button_left{
+	margin-left: 10px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	background-repeat: no-repeat;
 }
