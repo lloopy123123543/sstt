@@ -100,25 +100,31 @@ html, body {
 	display: inline-block;
 
 }
+.qq_text{
+	color: white;
+}
 .qq{
-	margin-top: 40px;
+	margin-top: 0px;
 	display: inline-block;
 	width: 300px;
 	height:500px;
 	margin-left: 100px;
-	background-color: black;
+}
+.ww_text{
+	color: white;
 }
 .ww{
 	display: inline-block;
 	width: 300px;
 	height:500px;
-	background-color: white;
 	margin-left: 100px;
+}
+.ee_text{
+	color: white;
 }
 .ee{
 	display: inline-block;
 	width: 300px;
 	height:500px;
-	background-color: black;
 	margin-left: 100px;
 }
